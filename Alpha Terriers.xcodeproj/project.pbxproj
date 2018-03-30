@@ -7,13 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B09DAA31CCF15BD00874F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DAA21CCF15BD00874F28 /* AppDelegate.swift */; };
-		1B09DAA51CCF15BD00874F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DAA41CCF15BD00874F28 /* ViewController.swift */; };
-		1B09DAA81CCF15BD00874F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DAA61CCF15BD00874F28 /* Main.storyboard */; };
-		1B09DAAA1CCF15BD00874F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DAA91CCF15BD00874F28 /* Assets.xcassets */; };
-		1B09DAAD1CCF15BD00874F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DAAB1CCF15BD00874F28 /* LaunchScreen.storyboard */; };
 		1B09DAB81CCF15BE00874F28 /* Alpha_TerriersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DAB71CCF15BE00874F28 /* Alpha_TerriersTests.swift */; };
 		1B09DAC31CCF15BE00874F28 /* Alpha_TerriersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DAC21CCF15BE00874F28 /* Alpha_TerriersUITests.swift */; };
+		1B09DB011CCF18D400874F28 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB001CCF18D400874F28 /* CoreLocation.framework */; };
+		1B09DB051CCF18ED00874F28 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB041CCF18ED00874F28 /* SystemConfiguration.framework */; };
+		1B09DB071CCF18FE00874F28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB061CCF18FE00874F28 /* Foundation.framework */; };
+		1B09DB091CCF190900874F28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB081CCF190900874F28 /* UIKit.framework */; };
+		1B09DB0B1CCF191000874F28 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB0A1CCF191000874F28 /* AddressBook.framework */; };
+		1B09DB0D1CCF192D00874F28 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB0C1CCF192C00874F28 /* CoreMotion.framework */; };
+		1B09DB0F1CCF193100874F28 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB0E1CCF193100874F28 /* Security.framework */; };
+		1B09DB111CCF193A00874F28 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB101CCF193A00874F28 /* MediaPlayer.framework */; };
+		1B09DB131CCF193E00874F28 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB121CCF193E00874F28 /* AssetsLibrary.framework */; };
+		1B09DB191CCF198E00874F28 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB181CCF198E00874F28 /* libz.tbd */; };
+		1B09DB1B1CCF19A200874F28 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB1A1CCF19A200874F28 /* libsqlite3.tbd */; };
+		1B09DB261CCF1E3400874F28 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB251CCF1E3400874F28 /* AWSMobileHubHelper.framework */; };
+		1B09DB281CCF1E4200874F28 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB271CCF1E4200874F28 /* GoogleSignIn.framework */; };
+		1B09DB2A1CCF1E6600874F28 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB291CCF1E6600874F28 /* AWSCore.framework */; };
+		1B09DB2B1CCF1E6600874F28 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB291CCF1E6600874F28 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B09DB2D1CCF1E7B00874F28 /* AWSLambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB2C1CCF1E7B00874F28 /* AWSLambda.framework */; };
+		1B09DB2E1CCF1E7B00874F28 /* AWSLambda.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB2C1CCF1E7B00874F28 /* AWSLambda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B09DB451CCF1E9F00874F28 /* AmazonAws in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB301CCF1E9F00874F28 /* AmazonAws */; };
+		1B09DB461CCF1E9F00874F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB311CCF1E9F00874F28 /* AppDelegate.swift */; };
+		1B09DB471CCF1E9F00874F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB321CCF1E9F00874F28 /* Assets.xcassets */; };
+		1B09DB481CCF1E9F00874F28 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB331CCF1E9F00874F28 /* Base.lproj */; };
+		1B09DB491CCF1E9F00874F28 /* ButtonFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB341CCF1E9F00874F28 /* ButtonFunctions.cpp */; };
+		1B09DB4A1CCF1E9F00874F28 /* ClientClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB361CCF1E9F00874F28 /* ClientClass.cpp */; };
+		1B09DB4B1CCF1E9F00874F28 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB381CCF1E9F00874F28 /* Images */; };
+		1B09DB4C1CCF1E9F00874F28 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB391CCF1E9F00874F28 /* Info.plist */; };
+		1B09DB4D1CCF1E9F00874F28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB3A1CCF1E9F00874F28 /* Launch Screen.storyboard */; };
+		1B09DB4E1CCF1E9F00874F28 /* LocationChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB3B1CCF1E9F00874F28 /* LocationChallengeViewController.swift */; };
+		1B09DB4F1CCF1E9F00874F28 /* LocationDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB3C1CCF1E9F00874F28 /* LocationDisplayViewController.swift */; };
+		1B09DB501CCF1E9F00874F28 /* LocationQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB3D1CCF1E9F00874F28 /* LocationQuestionViewController.swift */; };
+		1B09DB511CCF1E9F00874F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB3E1CCF1E9F00874F28 /* Main.storyboard */; };
+		1B09DB521CCF1E9F00874F28 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB3F1CCF1E9F00874F28 /* MainViewController.swift */; };
+		1B09DB531CCF1E9F00874F28 /* Sdk in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB401CCF1E9F00874F28 /* Sdk */; };
+		1B09DB541CCF1E9F00874F28 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09DB411CCF1E9F00874F28 /* SignIn.storyboard */; };
+		1B09DB551CCF1E9F00874F28 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB421CCF1E9F00874F28 /* SignInViewController.swift */; };
+		1B09DB561CCF1E9F00874F28 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB431CCF1E9F00874F28 /* UtilityFunctions.swift */; };
+		1B09DB571CCF1E9F00874F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB441CCF1E9F00874F28 /* ViewController.swift */; };
+		1B09DB591CCF1F7100874F28 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09DB581CCF1F7100874F28 /* AWSMobileClient.swift */; };
+		1B09DB5A1CCF223A00874F28 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09DB021CCF18DD00874F28 /* StoreKit.framework */; };
+		1B3DB7791CD007C1008EABC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DB7781CD007C1008EABC5 /* Images.xcassets */; };
+		1B3DB77B1CD00BBB008EABC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3DB77A1CD00BBB008EABC5 /* MapKit.framework */; };
+		1B3DB77D1CD01C6D008EABC5 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DB77C1CD01C6D008EABC5 /* LeaderboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,20 +69,71 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B09DAFC1CCF18BA00874F28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B09DB2B1CCF1E6600874F28 /* AWSCore.framework in Embed Frameworks */,
+				1B09DB2E1CCF1E7B00874F28 /* AWSLambda.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1B09DA9F1CCF15BD00874F28 /* Alpha Terriers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha Terriers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B09DAA21CCF15BD00874F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B09DAA41CCF15BD00874F28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B09DAA71CCF15BD00874F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B09DAA91CCF15BD00874F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B09DAAC1CCF15BD00874F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B09DAAE1CCF15BD00874F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B09DAB31CCF15BD00874F28 /* Alpha TerriersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alpha TerriersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B09DAB71CCF15BE00874F28 /* Alpha_TerriersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_TerriersTests.swift; sourceTree = "<group>"; };
 		1B09DAB91CCF15BE00874F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B09DABE1CCF15BE00874F28 /* Alpha TerriersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alpha TerriersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B09DAC21CCF15BE00874F28 /* Alpha_TerriersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_TerriersUITests.swift; sourceTree = "<group>"; };
 		1B09DAC41CCF15BE00874F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B09DB001CCF18D400874F28 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B09DB021CCF18DD00874F28 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1B09DB041CCF18ED00874F28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1B09DB061CCF18FE00874F28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B09DB081CCF190900874F28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B09DB0A1CCF191000874F28 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1B09DB0C1CCF192C00874F28 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1B09DB0E1CCF193100874F28 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1B09DB101CCF193A00874F28 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1B09DB121CCF193E00874F28 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1B09DB181CCF198E00874F28 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1B09DB1A1CCF19A200874F28 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1B09DB251CCF1E3400874F28 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = AlphaTerriers/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		1B09DB271CCF1E4200874F28 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = AlphaTerriers/Sdk/Google/GoogleSignIn.framework; sourceTree = "<group>"; };
+		1B09DB291CCF1E6600874F28 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = AlphaTerriers/Sdk/Aws/AWSCore.framework; sourceTree = "<group>"; };
+		1B09DB2C1CCF1E7B00874F28 /* AWSLambda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLambda.framework; path = AlphaTerriers/Sdk/Aws/AWSLambda.framework; sourceTree = "<group>"; };
+		1B09DB2F1CCF1E9F00874F28 /* Alpha-Terriers-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Alpha-Terriers-Bridging-Header.h"; path = "AlphaTerriers/Alpha-Terriers-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1B09DB301CCF1E9F00874F28 /* AmazonAws */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AmazonAws; path = AlphaTerriers/AmazonAws; sourceTree = SOURCE_ROOT; };
+		1B09DB311CCF1E9F00874F28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AlphaTerriers/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB321CCF1E9F00874F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AlphaTerriers/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1B09DB331CCF1E9F00874F28 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = AlphaTerriers/Base.lproj; sourceTree = SOURCE_ROOT; };
+		1B09DB341CCF1E9F00874F28 /* ButtonFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ButtonFunctions.cpp; path = AlphaTerriers/ButtonFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		1B09DB351CCF1E9F00874F28 /* ButtonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonFunctions.h; path = AlphaTerriers/ButtonFunctions.h; sourceTree = SOURCE_ROOT; };
+		1B09DB361CCF1E9F00874F28 /* ClientClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientClass.cpp; path = AlphaTerriers/ClientClass.cpp; sourceTree = SOURCE_ROOT; };
+		1B09DB371CCF1E9F00874F28 /* ClientClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientClass.h; path = AlphaTerriers/ClientClass.h; sourceTree = SOURCE_ROOT; };
+		1B09DB381CCF1E9F00874F28 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = AlphaTerriers/Images; sourceTree = SOURCE_ROOT; };
+		1B09DB391CCF1E9F00874F28 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AlphaTerriers/Info.plist; sourceTree = SOURCE_ROOT; };
+		1B09DB3A1CCF1E9F00874F28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "AlphaTerriers/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		1B09DB3B1CCF1E9F00874F28 /* LocationChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationChallengeViewController.swift; path = AlphaTerriers/LocationChallengeViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB3C1CCF1E9F00874F28 /* LocationDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDisplayViewController.swift; path = AlphaTerriers/LocationDisplayViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB3D1CCF1E9F00874F28 /* LocationQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationQuestionViewController.swift; path = AlphaTerriers/LocationQuestionViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB3E1CCF1E9F00874F28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = AlphaTerriers/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1B09DB3F1CCF1E9F00874F28 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = AlphaTerriers/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB401CCF1E9F00874F28 /* Sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sdk; path = AlphaTerriers/Sdk; sourceTree = SOURCE_ROOT; };
+		1B09DB411CCF1E9F00874F28 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = AlphaTerriers/SignIn.storyboard; sourceTree = SOURCE_ROOT; };
+		1B09DB421CCF1E9F00874F28 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = AlphaTerriers/SignInViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB431CCF1E9F00874F28 /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = AlphaTerriers/UtilityFunctions.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB441CCF1E9F00874F28 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = AlphaTerriers/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		1B09DB581CCF1F7100874F28 /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AWSMobileClient.swift; path = AlphaTerriers/AWSMobileClient.swift; sourceTree = SOURCE_ROOT; };
+		1B3DB7781CD007C1008EABC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B3DB77A1CD00BBB008EABC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1B3DB77C1CD01C6D008EABC5 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +141,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3DB77B1CD00BBB008EABC5 /* MapKit.framework in Frameworks */,
+				1B09DB5A1CCF223A00874F28 /* StoreKit.framework in Frameworks */,
+				1B09DB2D1CCF1E7B00874F28 /* AWSLambda.framework in Frameworks */,
+				1B09DB281CCF1E4200874F28 /* GoogleSignIn.framework in Frameworks */,
+				1B09DB2A1CCF1E6600874F28 /* AWSCore.framework in Frameworks */,
+				1B09DB261CCF1E3400874F28 /* AWSMobileHubHelper.framework in Frameworks */,
+				1B09DB1B1CCF19A200874F28 /* libsqlite3.tbd in Frameworks */,
+				1B09DB191CCF198E00874F28 /* libz.tbd in Frameworks */,
+				1B09DB131CCF193E00874F28 /* AssetsLibrary.framework in Frameworks */,
+				1B09DB111CCF193A00874F28 /* MediaPlayer.framework in Frameworks */,
+				1B09DB0F1CCF193100874F28 /* Security.framework in Frameworks */,
+				1B09DB0D1CCF192D00874F28 /* CoreMotion.framework in Frameworks */,
+				1B09DB0B1CCF191000874F28 /* AddressBook.framework in Frameworks */,
+				1B09DB091CCF190900874F28 /* UIKit.framework in Frameworks */,
+				1B09DB071CCF18FE00874F28 /* Foundation.framework in Frameworks */,
+				1B09DB051CCF18ED00874F28 /* SystemConfiguration.framework in Frameworks */,
+				1B09DB011CCF18D400874F28 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +181,23 @@
 		1B09DA961CCF15BD00874F28 = {
 			isa = PBXGroup;
 			children = (
+				1B3DB77A1CD00BBB008EABC5 /* MapKit.framework */,
+				1B09DB2C1CCF1E7B00874F28 /* AWSLambda.framework */,
+				1B09DB291CCF1E6600874F28 /* AWSCore.framework */,
+				1B09DB271CCF1E4200874F28 /* GoogleSignIn.framework */,
+				1B09DB251CCF1E3400874F28 /* AWSMobileHubHelper.framework */,
+				1B09DB1A1CCF19A200874F28 /* libsqlite3.tbd */,
+				1B09DB181CCF198E00874F28 /* libz.tbd */,
+				1B09DB121CCF193E00874F28 /* AssetsLibrary.framework */,
+				1B09DB101CCF193A00874F28 /* MediaPlayer.framework */,
+				1B09DB0E1CCF193100874F28 /* Security.framework */,
+				1B09DB0C1CCF192C00874F28 /* CoreMotion.framework */,
+				1B09DB0A1CCF191000874F28 /* AddressBook.framework */,
+				1B09DB081CCF190900874F28 /* UIKit.framework */,
+				1B09DB061CCF18FE00874F28 /* Foundation.framework */,
+				1B09DB041CCF18ED00874F28 /* SystemConfiguration.framework */,
+				1B09DB021CCF18DD00874F28 /* StoreKit.framework */,
+				1B09DB001CCF18D400874F28 /* CoreLocation.framework */,
 				1B09DAA11CCF15BD00874F28 /* Alpha Terriers */,
 				1B09DAB61CCF15BE00874F28 /* Alpha TerriersTests */,
 				1B09DAC11CCF15BE00874F28 /* Alpha TerriersUITests */,
@@ -97,12 +218,31 @@
 		1B09DAA11CCF15BD00874F28 /* Alpha Terriers */ = {
 			isa = PBXGroup;
 			children = (
-				1B09DAA21CCF15BD00874F28 /* AppDelegate.swift */,
-				1B09DAA41CCF15BD00874F28 /* ViewController.swift */,
-				1B09DAA61CCF15BD00874F28 /* Main.storyboard */,
-				1B09DAA91CCF15BD00874F28 /* Assets.xcassets */,
-				1B09DAAB1CCF15BD00874F28 /* LaunchScreen.storyboard */,
-				1B09DAAE1CCF15BD00874F28 /* Info.plist */,
+				1B09DB2F1CCF1E9F00874F28 /* Alpha-Terriers-Bridging-Header.h */,
+				1B09DB301CCF1E9F00874F28 /* AmazonAws */,
+				1B09DB311CCF1E9F00874F28 /* AppDelegate.swift */,
+				1B09DB321CCF1E9F00874F28 /* Assets.xcassets */,
+				1B09DB331CCF1E9F00874F28 /* Base.lproj */,
+				1B09DB341CCF1E9F00874F28 /* ButtonFunctions.cpp */,
+				1B09DB351CCF1E9F00874F28 /* ButtonFunctions.h */,
+				1B09DB361CCF1E9F00874F28 /* ClientClass.cpp */,
+				1B09DB371CCF1E9F00874F28 /* ClientClass.h */,
+				1B09DB381CCF1E9F00874F28 /* Images */,
+				1B09DB391CCF1E9F00874F28 /* Info.plist */,
+				1B09DB3A1CCF1E9F00874F28 /* Launch Screen.storyboard */,
+				1B09DB3B1CCF1E9F00874F28 /* LocationChallengeViewController.swift */,
+				1B09DB3C1CCF1E9F00874F28 /* LocationDisplayViewController.swift */,
+				1B09DB581CCF1F7100874F28 /* AWSMobileClient.swift */,
+				1B09DB3D1CCF1E9F00874F28 /* LocationQuestionViewController.swift */,
+				1B09DB3E1CCF1E9F00874F28 /* Main.storyboard */,
+				1B09DB3F1CCF1E9F00874F28 /* MainViewController.swift */,
+				1B3DB77C1CD01C6D008EABC5 /* LeaderboardViewController.swift */,
+				1B09DB401CCF1E9F00874F28 /* Sdk */,
+				1B09DB411CCF1E9F00874F28 /* SignIn.storyboard */,
+				1B09DB421CCF1E9F00874F28 /* SignInViewController.swift */,
+				1B09DB431CCF1E9F00874F28 /* UtilityFunctions.swift */,
+				1B09DB441CCF1E9F00874F28 /* ViewController.swift */,
+				1B3DB7781CD007C1008EABC5 /* Images.xcassets */,
 			);
 			path = "Alpha Terriers";
 			sourceTree = "<group>";
@@ -135,6 +275,7 @@
 				1B09DA9B1CCF15BD00874F28 /* Sources */,
 				1B09DA9C1CCF15BD00874F28 /* Frameworks */,
 				1B09DA9D1CCF15BD00874F28 /* Resources */,
+				1B09DAFC1CCF18BA00874F28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +334,7 @@
 				TargetAttributes = {
 					1B09DA9E1CCF15BD00874F28 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XH8N3376K2;
 					};
 					1B09DAB21CCF15BD00874F28 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +371,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B09DAAD1CCF15BD00874F28 /* LaunchScreen.storyboard in Resources */,
-				1B09DAAA1CCF15BD00874F28 /* Assets.xcassets in Resources */,
-				1B09DAA81CCF15BD00874F28 /* Main.storyboard in Resources */,
+				1B09DB511CCF1E9F00874F28 /* Main.storyboard in Resources */,
+				1B3DB7791CD007C1008EABC5 /* Images.xcassets in Resources */,
+				1B09DB4D1CCF1E9F00874F28 /* Launch Screen.storyboard in Resources */,
+				1B09DB4B1CCF1E9F00874F28 /* Images in Resources */,
+				1B09DB471CCF1E9F00874F28 /* Assets.xcassets in Resources */,
+				1B09DB541CCF1E9F00874F28 /* SignIn.storyboard in Resources */,
+				1B09DB481CCF1E9F00874F28 /* Base.lproj in Resources */,
+				1B09DB531CCF1E9F00874F28 /* Sdk in Resources */,
+				1B09DB4C1CCF1E9F00874F28 /* Info.plist in Resources */,
+				1B09DB451CCF1E9F00874F28 /* AmazonAws in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +405,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B09DAA51CCF15BD00874F28 /* ViewController.swift in Sources */,
-				1B09DAA31CCF15BD00874F28 /* AppDelegate.swift in Sources */,
+				1B09DB571CCF1E9F00874F28 /* ViewController.swift in Sources */,
+				1B09DB561CCF1E9F00874F28 /* UtilityFunctions.swift in Sources */,
+				1B09DB521CCF1E9F00874F28 /* MainViewController.swift in Sources */,
+				1B09DB591CCF1F7100874F28 /* AWSMobileClient.swift in Sources */,
+				1B09DB4A1CCF1E9F00874F28 /* ClientClass.cpp in Sources */,
+				1B09DB461CCF1E9F00874F28 /* AppDelegate.swift in Sources */,
+				1B09DB491CCF1E9F00874F28 /* ButtonFunctions.cpp in Sources */,
+				1B09DB551CCF1E9F00874F28 /* SignInViewController.swift in Sources */,
+				1B09DB4F1CCF1E9F00874F28 /* LocationDisplayViewController.swift in Sources */,
+				1B09DB4E1CCF1E9F00874F28 /* LocationChallengeViewController.swift in Sources */,
+				1B3DB77D1CD01C6D008EABC5 /* LeaderboardViewController.swift in Sources */,
+				1B09DB501CCF1E9F00874F28 /* LocationQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,25 +451,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		1B09DAA61CCF15BD00874F28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B09DAA71CCF15BD00874F28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B09DAAB1CCF15BD00874F28 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B09DAAC1CCF15BD00874F28 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		1B09DAC51CCF15BE00874F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -330,6 +470,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: joshua.lippai@gmail.com (NPVJU5M5U2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -376,6 +517,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: joshua.lippai@gmail.com (NPVJU5M5U2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -401,10 +543,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Alpha Terriers/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/Sdk/Aws,
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/Sdk/Google,
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/AmazonAws,
+					"$(PROJECT_DIR)/AlphaTerriers/AmazonAws",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Google",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Aws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AlphaTerriers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Google/GoogleSignIn.framework/GoogleSignIn",
+					"$(OTHER_LDFLAGS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BU.Alpha-Terriers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlphaTerriers/Alpha-Terriers-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -412,10 +580,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Alpha Terriers/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/Sdk/Aws,
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/Sdk/Google,
+					"$(PROJECT_DIR)/Alpha",
+					Terriers/AmazonAws,
+					"$(PROJECT_DIR)/AlphaTerriers/AmazonAws",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Google",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Aws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AlphaTerriers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/AlphaTerriers/Sdk/Google/GoogleSignIn.framework/GoogleSignIn",
+					"$(OTHER_LDFLAGS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BU.Alpha-Terriers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlphaTerriers/Alpha-Terriers-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -484,6 +677,7 @@
 				1B09DAC91CCF15BE00874F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B09DACA1CCF15BE00874F28 /* Build configuration list for PBXNativeTarget "Alpha TerriersTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +686,7 @@
 				1B09DACC1CCF15BE00874F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B09DACD1CCF15BE00874F28 /* Build configuration list for PBXNativeTarget "Alpha TerriersUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +695,7 @@
 				1B09DACF1CCF15BE00874F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
